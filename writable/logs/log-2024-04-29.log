@@ -1,0 +1,751 @@
+INFO - 2024-04-29 11:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-29 11:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 11:40:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:40:59 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:40:59 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:40:59 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:40:59 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:42:11 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/splide.min.js.map'.
+[Method: GET, Route: assets/frontend/js/splide.min.js.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/splide.min.js.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:42:12 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/css/bootstrap.min.css.map'.
+[Method: GET, Route: assets/frontend/css/bootstrap.min.css.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/css/bootstrap.min.css.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 11:43:36 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 11:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 11:51:36 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:51:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:51:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:51:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 11:51:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 12:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-29 12:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 12:57:34 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:57:35 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:57:35 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:57:35 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:57:35 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:57:37 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 12:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 12:58:03 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:58:03 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:58:03 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:58:03 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:58:04 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 12:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 12:59:52 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:59:52 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:59:53 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:59:53 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 12:59:53 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:00:31 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:00:31 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:00:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:00:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:00:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:01:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:01:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:01:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:01:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:01:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:02:47 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:02:47 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:02:47 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:02:47 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:02:48 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:03:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:03:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:03:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:03:32 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:03:33 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:19:46 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:19:46 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:19:46 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:19:46 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:19:46 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:24:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/splide.min.js.map'.
+[Method: GET, Route: assets/frontend/js/splide.min.js.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/splide.min.js.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:24:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/css/bootstrap.min.css.map'.
+[Method: GET, Route: assets/frontend/css/bootstrap.min.css.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/css/bootstrap.min.css.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:27:13 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:13 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/css/bootstrap.min.css.map'.
+[Method: GET, Route: assets/frontend/css/bootstrap.min.css.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/css/bootstrap.min.css.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:13 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:13 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/splide.min.js.map'.
+[Method: GET, Route: assets/frontend/js/splide.min.js.map]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/splide.min.js.map\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:14 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:27:15 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:08 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:10 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:21 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-29 13:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:47 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/header/'.
+[Method: GET, Route: assets/uploads/header/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/header/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:30:55 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: tabs-setup'.
+[Method: GET, Route: tabs-setup]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: tabs-setup\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-29 13:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:31:09 --> ErrorException: Undefined property: App\Controllers\Home::$topbarModel
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$topbarModel', 'D:\\xampp\\htdocs\\varahotel\\app\\Controllers\\Home.php', 51)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getCommonData()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:31:18 --> ErrorException: Undefined property: App\Controllers\Home::$topbarModel
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$topbarModel', 'D:\\xampp\\htdocs\\varahotel\\app\\Controllers\\Home.php', 51)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getCommonData()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+INFO - 2024-04-29 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-29 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/js/popper.min.js'.
+[Method: GET, Route: assets/frontend/js/popper.min.js]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/js/popper.min.js\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Regular.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Regular.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')
+CRITICAL - 2024-04-29 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff'.
+[Method: GET, Route: assets/frontend/assets/fonts/Metropolis-Bold.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/assets/fonts/Metropolis-Bold.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\varahotel\\public\\index.php')

@@ -1,0 +1,407 @@
+ERROR - 2024-08-05 12:33:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/vhlsecdhanusha/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /var/www/html/vhlsecdhanusha/system/Database/MySQLi/Connection.php(186): mysqli->real_connect()
+#1 /var/www/html/vhlsecdhanusha/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/vhlsecdhanusha/system/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/vhlsecdhanusha/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/vhlsecdhanusha/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/vhlsecdhanusha/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /var/www/html/vhlsecdhanusha/app/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+#7 /var/www/html/vhlsecdhanusha/app/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+#8 /var/www/html/vhlsecdhanusha/app/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+#9 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#10 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/vhlsecdhanusha/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/vhlsecdhanusha/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /var/www/html/vhlsecdhanusha/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /var/www/html/vhlsecdhanusha/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /var/www/html/vhlsecdhanusha/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /var/www/html/vhlsecdhanusha/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/vhlsecdhanusha/system/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/vhlsecdhanusha/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/vhlsecdhanusha/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/vhlsecdhanusha/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /var/www/html/vhlsecdhanusha/app/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+#6 /var/www/html/vhlsecdhanusha/app/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+#7 /var/www/html/vhlsecdhanusha/app/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+#8 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#9 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/vhlsecdhanusha/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/vhlsecdhanusha/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/vhlsecdhanusha/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /var/www/html/vhlsecdhanusha/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /var/www/html/vhlsecdhanusha/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-08-05 12:33:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 457.
+ 1 SYSTEMPATH/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+ 7 APPPATH/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:42:32 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:42:32 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:42:41 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/js/getTimestamp.js]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:43:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/js/getTimestamp.js]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:44:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/js/getTimestamp.js]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff2]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 12:51:08 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.ttf]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 13:48:05 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 13:48:05 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdhanusha/public/index.php')
+CRITICAL - 2024-08-05 15:59:56 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdMahottari/public/index.php')
+CRITICAL - 2024-08-05 16:00:11 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdMahottari/public/index.php')
+CRITICAL - 2024-08-05 16:01:19 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdMahottari/public/index.php')
+CRITICAL - 2024-08-05 16:03:19 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/vhlsecdMahottari/public/index.php')

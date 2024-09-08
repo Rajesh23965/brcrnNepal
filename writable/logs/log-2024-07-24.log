@@ -1,0 +1,484 @@
+INFO - 2024-07-24 13:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 13:17:23 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/1720599699_3d11156dd78c94808469.png'.
+[Method: GET, Route: assets/uploads/1720599699_3d11156dd78c94808469.png]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/1720599699_3d11156dd78c94808469.png\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:24 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/1720599711_dbb376e2d4f16ad4f59b.png'.
+[Method: GET, Route: assets/uploads/1720599711_dbb376e2d4f16ad4f59b.png]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/1720599711_dbb376e2d4f16ad4f59b.png\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-solid-900.woff2'.
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-solid-900.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-brands-400.woff2'.
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-brands-400.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-regular-400.woff2'.
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff2]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-regular-400.woff2\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/1720505039_f01bcc39651355fde162.jpg'.
+[Method: GET, Route: assets/uploads/1720505039_f01bcc39651355fde162.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/1720505039_f01bcc39651355fde162.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-regular-400.woff'.
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-regular-400.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-brands-400.woff'.
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-brands-400.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-solid-900.woff'.
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.woff]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-solid-900.woff\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-regular-400.ttf'.
+[Method: GET, Route: assets/frontend/webfonts/fa-regular-400.ttf]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-regular-400.ttf\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-brands-400.ttf'.
+[Method: GET, Route: assets/frontend/webfonts/fa-brands-400.ttf]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-brands-400.ttf\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/webfonts/fa-solid-900.ttf'.
+[Method: GET, Route: assets/frontend/webfonts/fa-solid-900.ttf]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/webfonts/fa-solid-900.ttf\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:25 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: ws'.
+[Method: GET, Route: ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+INFO - 2024-07-24 13:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 13:17:29 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:29 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/frontend/image/'.
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/frontend/image/\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:31 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: admin/login/ws'.
+[Method: GET, Route: admin/login/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: admin/login/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+INFO - 2024-07-24 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 13:17:36 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: dashboard/ws'.
+[Method: GET, Route: dashboard/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: dashboard/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+INFO - 2024-07-24 13:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e40eb.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e40eb.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e40eb.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e4809.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e4809.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e4809.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c70b1.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c70b1.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c70b1.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c785f.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c785f.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c785f.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c7e5b.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c7e5b.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c7e5b.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:38 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c8421.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c8421.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c8421.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: add-post/ws'.
+[Method: GET, Route: add-post/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: add-post/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668cca3c4e13e.jpg'.
+[Method: GET, Route: assets/uploads/668cca3c4e13e.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668cca3c4e13e.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996ea20f.jpg'.
+[Method: GET, Route: assets/uploads/668ce996ea20f.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996ea20f.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996eab7e.jpg'.
+[Method: GET, Route: assets/uploads/668ce996eab7e.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996eab7e.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996eb5de.jpg'.
+[Method: GET, Route: assets/uploads/668ce996eb5de.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996eb5de.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668cd29f81496.jpg'.
+[Method: GET, Route: assets/uploads/668cd29f81496.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668cd29f81496.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:39 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996e9a65.jpg'.
+[Method: GET, Route: assets/uploads/668ce996e9a65.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996e9a65.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:40 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996e35aa.jpg'.
+[Method: GET, Route: assets/uploads/668ce996e35aa.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996e35aa.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:40 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2dd795.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2dd795.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2dd795.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:40 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e5838.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e5838.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e5838.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:40 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e5359.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e5359.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e5359.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:40 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e4e14.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e4e14.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e4e14.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+INFO - 2024-07-24 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 13:17:56 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e40eb.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e40eb.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e40eb.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:56 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996e35aa.jpg'.
+[Method: GET, Route: assets/uploads/668ce996e35aa.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996e35aa.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e5359.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e5359.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e5359.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e5838.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e5838.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e5838.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e4809.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e4809.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e4809.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2e4e14.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2e4e14.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2e4e14.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c7e5b.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c7e5b.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c7e5b.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c8421.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c8421.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c8421.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:57 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccbd2dd795.jpg'.
+[Method: GET, Route: assets/uploads/668ccbd2dd795.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccbd2dd795.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996eb5de.jpg'.
+[Method: GET, Route: assets/uploads/668ce996eb5de.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996eb5de.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668cca3c4e13e.jpg'.
+[Method: GET, Route: assets/uploads/668cca3c4e13e.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668cca3c4e13e.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c70b1.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c70b1.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c70b1.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ccb11c785f.jpg'.
+[Method: GET, Route: assets/uploads/668ccb11c785f.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ccb11c785f.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668cd29f81496.jpg'.
+[Method: GET, Route: assets/uploads/668cd29f81496.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668cd29f81496.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996e9a65.jpg'.
+[Method: GET, Route: assets/uploads/668ce996e9a65.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996e9a65.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996ea20f.jpg'.
+[Method: GET, Route: assets/uploads/668ce996ea20f.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996ea20f.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:58 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: assets/uploads/668ce996eab7e.jpg'.
+[Method: GET, Route: assets/uploads/668ce996eab7e.jpg]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: assets/uploads/668ce996eab7e.jpg\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')
+CRITICAL - 2024-07-24 13:17:59 --> CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'GET: add-post/ws'.
+[Method: GET, Route: add-post/ws]
+in SYSTEMPATH\CodeIgniter.php on line 982.
+ 1 SYSTEMPATH\CodeIgniter.php(982): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can\'t find a route for \'GET: add-post/ws\'.')
+ 2 SYSTEMPATH\CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\akcdhanusha\\public\\index.php')

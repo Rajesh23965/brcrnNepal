@@ -1,0 +1,1434 @@
+CRITICAL - 2024-04-18 05:18:08 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::order_by
+[Method: GET, Route: view-all-post-list]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Admin\Postmodel.php(17): CodeIgniter\Model->__call('order_by', [...])
+ 2 APPPATH\Controllers\Admin\PostController.php(33): App\Models\Admin\Postmodel->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:18:24 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::order_by
+[Method: GET, Route: view-all-post-list]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Admin\Postmodel.php(17): CodeIgniter\Model->__call('order_by', [...])
+ 2 APPPATH\Controllers\Admin\PostController.php(33): App\Models\Admin\Postmodel->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:19:38 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::order_by
+[Method: GET, Route: view-all-post-list]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Admin\Postmodel.php(17): CodeIgniter\Model->__call('order_by', [...])
+ 2 APPPATH\Controllers\Admin\PostController.php(33): App\Models\Admin\Postmodel->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:20:40 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::order_by
+[Method: GET, Route: view-all-post-list]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Admin\Postmodel.php(17): CodeIgniter\Model->__call('order_by', [...])
+ 2 APPPATH\Controllers\Admin\PostController.php(33): App\Models\Admin\Postmodel->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:53:05 --> Error: Call to undefined function App\Controllers\Admin\handleFileUpload()
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:55:53 --> ErrorException: Undefined variable $validator
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 32.
+ 1 APPPATH\Helpers\HandleFileUpload_helper.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validator', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\HandleFileUpload_helper.php', 32)
+ 2 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 05:56:17 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'downloadable_file', [...], null, 'downloadable_file')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('downloadable_file', 'Image File', [...], [...], [...], 'downloadable_file')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(32): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:01:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_form.php"
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('upload_form', [], true)
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(34): view('upload_form', [...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:02:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "add-post.php"
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add-post.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add-post', [], true)
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(34): view('add-post', [...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:03:46 --> ErrorException: Undefined variable $categoryList
+[Method: POST, Route: save-post/]
+in APPPATH\Views\admin\post_editor.php on line 81.
+ 1 APPPATH\Views\admin\post_editor.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/post_editor', [], true)
+ 5 APPPATH\Helpers\HandleFileUpload_helper.php(34): view('admin/post_editor', [...])
+ 6 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:17:02 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'featured_image.name', [...], null, 'featured_image')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('featured_image', 'Featured Image', [...], [...], [...], 'featured_image')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(30): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:18:42 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'featured_image', [...], null, 'featured_image')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('featured_image', 'Featured Image', [...], [...], [...], 'featured_image')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(31): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:19:01 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'featured_image', [...], null, 'featured_image')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('featured_image', 'Featured Image', [...], [...], [...], 'featured_image')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(31): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:19:42 --> TypeError: CodeIgniter\Validation\FileRules::is_image(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 123.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->is_image([...], 'featured_image', [...], null, 'featured_image')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('featured_image', 'Featured Image', [...], [...], [...], 'featured_image')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(32): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:21:09 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'featured_image', [...], null, 'featured_image')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('featured_image', 'Featured Image', [...], [...], [...], 'featured_image')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(33): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:22:42 --> TypeError: CodeIgniter\Validation\FileRules::uploaded(): Argument #1 ($blank) must be of type ?string, array given, called in D:\xampp\htdocs\newcms\system\Validation\Validation.php on line 336
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\Validation\FileRules.php on line 53.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\FileRules->uploaded([...], 'downloadable_file', [...], null, 'downloadable_file')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('downloadable_file', 'Downloadable file', [...], [...], [...], 'downloadable_file')
+ 3 APPPATH\Helpers\HandleFileUpload_helper.php(17): CodeIgniter\Validation\Validation->run([...])
+ 4 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:23:54 --> Error: Call to a member function do_upload() on null
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 15.
+ 1 APPPATH\Controllers\Admin\PostController.php(64): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:27:11 --> ErrorException: Undefined variable $upload
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 66.
+ 1 APPPATH\Controllers\Admin\PostController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $upload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:29:17 --> Error: Call to a member function do_upload() on null
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 15.
+ 1 APPPATH\Controllers\Admin\PostController.php(66): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:30:10 --> Error: Call to a member function initialize() on null
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 12.
+ 1 APPPATH\Controllers\Admin\PostController.php(66): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:31:20 --> Error: Call to a member function initialize() on null
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 17.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_and_upload_file('featured_image', 'gif|jpg|jpeg|png')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:32:54 --> Error: Call to a member function initialize() on null
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 17.
+ 1 APPPATH\Controllers\Admin\PostController.php(67): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:36:22 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 15.
+ 1 APPPATH\Controllers\Admin\PostController.php(67): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:37:14 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 15.
+ 1 APPPATH\Controllers\Admin\PostController.php(67): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:37:42 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 15.
+ 1 APPPATH\Controllers\Admin\PostController.php(67): handle_and_upload_file('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:38:36 --> ErrorException: require_once(D:\xampp\htdocs\newcms\app\libraries/Upload.php): Failed to open stream: No such file or directory
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 11.
+ 1 APPPATH\Helpers\HandleFileUpload_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\newcms\\app\\libraries/Upload.php): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\HandleFileUpload_helper.php', 11)
+ 2 APPPATH\Helpers\HandleFileUpload_helper.php(11): require_once()
+ 3 APPPATH\Controllers\Admin\PostController.php(75): handle_and_upload_file('featured_image', 'gif|jpg|jpeg|png')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:42:51 --> ErrorException: Undefined variable $downloadable_file
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 102.
+ 1 APPPATH\Controllers\Admin\PostController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $downloadable_file', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:44:38 --> Error: Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:45:17 --> Error: Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:50:16 --> Error: Call to undefined function App\Controllers\Admin\handle_and_upload_file()
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:50:53 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Controllers\Admin\PostController.php(75): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 06:53:45 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Helpers\HandleFileUpload_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\HandleFileUpload_helper.php', 9)
+ 2 APPPATH\Controllers\Admin\PostController.php(75): handle_upload_file()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:04:03 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Helpers\HandleFileUpload_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\HandleFileUpload_helper.php', 9)
+ 2 APPPATH\Controllers\Admin\PostController.php(75): handle_upload_file()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:17:57 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:18:24 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Helpers\HandleFileUpload_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\HandleFileUpload_helper.php', 9)
+ 2 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:23:28 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 8.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:26:31 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 8.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:26:50 --> Error: Class "request" not found
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 8.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:27:23 --> Error: Class "getFile" not found
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 8.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:33:16 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 9.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:35:23 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 6.
+ 1 APPPATH\Controllers\Admin\PostController.php(74): handle_upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:36:59 --> Error: Call to undefined function App\Controllers\Admin\get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:39:21 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: add-post]
+in APPPATH\Controllers\BaseController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:39:32 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: add-post]
+in APPPATH\Controllers\BaseController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:39:33 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\BaseController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:39:54 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\BaseController.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:40:01 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\BaseController.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:40:39 --> Error: Call to undefined function App\Controllers\register_ci_instance()
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\BaseController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Admin\PostController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PostController')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PostController')
+ 9 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PostController', true)
+10 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:55:21 --> Error: Class "App\Libraries\FileUploader" not found
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:56:33 --> Error: Class "App\Controllers\Admin\FileUploader" not found
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:57:19 --> ErrorException: Undefined property: App\Controllers\Admin\PostController::$FileUploader
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 76.
+ 1 APPPATH\Controllers\Admin\PostController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\PostController::$FileUploader', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:57:42 --> ArgumentCountError: Too few arguments to function App\Libraries\fileupload::upload(), 0 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 76 and exactly 1 expected
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 7.
+ 1 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:58:50 --> Error: Class "App\Libraries\FileUpload" not found
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 07:59:27 --> ErrorException: Undefined property: App\Libraries\fileupload::$request
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Libraries\\fileupload::$request', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:00:16 --> Error: Call to undefined function App\Libraries\get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:01:25 --> Error: Call to undefined function App\Libraries\get_instance()
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 12.
+ 1 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:03:10 --> ErrorException: Undefined property: App\Libraries\fileupload::$request
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Libraries\\fileupload::$request', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:09:17 --> ErrorException: Undefined array key "featured_image"
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "featured_image"', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:10:53 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:11:41 --> ErrorException: Undefined array key "fileToUpload"
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fileToUpload"', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:18:12 --> ErrorException: Undefined variable $fieldName
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 10.
+ 1 APPPATH\Libraries\FileUpload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fieldName', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:18:28 --> ErrorException: Undefined array key "tmpname"
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 11.
+ 1 APPPATH\Libraries\FileUpload.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tmpname"', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 11)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:19:16 --> ErrorException: Undefined array key "fileToUpload"
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 15.
+ 1 APPPATH\Libraries\FileUpload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fileToUpload"', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 15)
+ 2 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:19:52 --> ErrorException: move_uploaded_file(./public/assets/uploaded): Failed to open stream: No such file or directory
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(./public/assets/uploaded): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 15)
+ 2 APPPATH\Libraries\FileUpload.php(15): move_uploaded_file('D:\\xampp\\tmp\\phpAB3.tmp', './public/assets/uploaded')
+ 3 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:21:18 --> ErrorException: move_uploaded_file(): The second argument to copy() function cannot be a directory
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\FileUpload.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'D:\\xampp\\htdocs\\newcms\\app\\Libraries\\FileUpload.php', 15)
+ 2 APPPATH\Libraries\FileUpload.php(15): move_uploaded_file('D:\\xampp\\tmp\\php5A36.tmp', 'D:\\xampp\\htdocs\\newcms\\writable\\uploads/')
+ 3 APPPATH\Controllers\Admin\PostController.php(76): App\Libraries\fileupload->upload('featured_image')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:42:03 --> ErrorException: Undefined variable $postId
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 65.
+ 1 APPPATH\Controllers\Admin\PostController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postId', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-18 08:42:35 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `posttbl...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posttbl...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posttbl...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `posttbl...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\newcms\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\newcms\system\BaseModel.php(749): CodeIgniter\Model->update('3', Array)
+#8 D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php(96): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+#11 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-04-18 08:42:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `posttbl` SET `post_title` = :post_title:, `status_id` = :status_id:, `post_caty_id` = :post_caty_id:, `content_section` = :content_section:, `slug` = :slug:, `downloadable_file` = :downloadable_file:, `featured_image` = :featured_image:
+WHERE `posttbl`.`post_id` IN :posttbl.post_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->update('3', [...])
+ 6 APPPATH\Controllers\Admin\PostController.php(96): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:42:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posttbl` SET `post_title` = \'akjbnkjasdf\', `status_id` = \'1\', `post_caty_id` = \'1,2\', `content_section` = \'\', `slug` = \'akjbnkjasdf\', `downloadable_file` = \'6620dcfb86a87.jpg\', `featured_image` = (\'3\',\'akjbnkjasdf\',\'1,2\',\'6620dac9dc2ad.jpg\',\'1\',\'akjbnkjasdf\',\'2\',\'\',\'\',\'0\',NULL,\'0000-00-00\',\'0\')
+WHERE `posttbl`.`post_id` IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posttbl` SET `post_title` = \'akjbnkjasdf\', `status_id` = \'1\', `post_caty_id` = \'1,2\', `content_section` = \'\', `slug` = \'akjbnkjasdf\', `downloadable_file` = \'6620dcfb86a87.jpg\', `featured_image` = (\'3\',\'akjbnkjasdf\',\'1,2\',\'6620dac9dc2ad.jpg\',\'1\',\'akjbnkjasdf\',\'2\',\'\',\'\',\'0\',NULL,\'0000-00-00\',\'0\')
+WHERE `posttbl`.`post_id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `posttbl` SET `post_title` = :post_title:, `status_id` = :status_id:, `post_caty_id` = :post_caty_id:, `content_section` = :content_section:, `slug` = :slug:, `downloadable_file` = :downloadable_file:, `featured_image` = :featured_image:
+WHERE `posttbl`.`post_id` IN :posttbl.post_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->update('3', [...])
+ 8 APPPATH\Controllers\Admin\PostController.php(96): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:42:35 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `posttbl` SET `post_title` = \'akjbnkjasdf\', `status_id` = \'1\', `post_caty_id` = \'1,2\', `content_section` = \'\', `slug` = \'akjbnkjasdf\', `downloadable_file` = \'6620dcfb86a87.jpg\', `featured_image` = (\'3\',\'akjbnkjasdf\',\'1,2\',\'6620dac9dc2ad.jpg\',\'1\',\'akjbnkjasdf\',\'2\',\'\',\'\',\'0\',NULL,\'0000-00-00\',\'0\')
+WHERE `posttbl`.`post_id` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posttbl` SET `post_title` = \'akjbnkjasdf\', `status_id` = \'1\', `post_caty_id` = \'1,2\', `content_section` = \'\', `slug` = \'akjbnkjasdf\', `downloadable_file` = \'6620dcfb86a87.jpg\', `featured_image` = (\'3\',\'akjbnkjasdf\',\'1,2\',\'6620dac9dc2ad.jpg\',\'1\',\'akjbnkjasdf\',\'2\',\'\',\'\',\'0\',NULL,\'0000-00-00\',\'0\')
+WHERE `posttbl`.`post_id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posttbl` SET `post_title` = \'akjbnkjasdf\', `status_id` = \'1\', `post_caty_id` = \'1,2\', `content_section` = \'\', `slug` = \'akjbnkjasdf\', `downloadable_file` = \'6620dcfb86a87.jpg\', `featured_image` = (\'3\',\'akjbnkjasdf\',\'1,2\',\'6620dac9dc2ad.jpg\',\'1\',\'akjbnkjasdf\',\'2\',\'\',\'\',\'0\',NULL,\'0000-00-00\',\'0\')
+WHERE `posttbl`.`post_id` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `posttbl` SET `post_title` = :post_title:, `status_id` = :status_id:, `post_caty_id` = :post_caty_id:, `content_section` = :content_section:, `slug` = :slug:, `downloadable_file` = :downloadable_file:, `featured_image` = :featured_image:
+WHERE `posttbl`.`post_id` IN :posttbl.post_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->update('3', [...])
+ 9 APPPATH\Controllers\Admin\PostController.php(96): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 08:46:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf"
+[Method: GET, Route: assets/uploads/Invalid%20file%20type.%20Allowed%20types:%20jpg,%20png,%20jpeg,%20JPG,%20JPEG,%20PNG,%20GIF,%20gif,%20pdf]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/uploads/Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/uploads/Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:02:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf"
+[Method: GET, Route: assets/uploads/Invalid%20file%20type.%20Allowed%20types:%20jpg,%20png,%20jpeg,%20JPG,%20JPEG,%20PNG,%20GIF,%20gif,%20pdf]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/uploads/Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/uploads/Invalid file type. Allowed types: jpg, png, jpeg, JPG, JPEG, PNG, GIF, gif, pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:20:20 --> Error: Class "App\Controllers\Admin\pageModel" not found
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\PageController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:28:35 --> ErrorException: Undefined variable $bdDate
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 APPPATH\Controllers\Admin\PostController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdDate', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:28:49 --> ErrorException: Array to string conversion
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 APPPATH\Controllers\Admin\PostController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:30:39 --> ErrorException: Array to string conversion
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 APPPATH\Controllers\Admin\PostController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 09:34:02 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 APPPATH\Controllers\Admin\PostController.php(60): explode('-', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:11:01 --> TypeError: implode(): Argument #2 ($array) must be of type ?array, string given
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 61.
+ 1 APPPATH\Controllers\Admin\PostController.php(61): implode('-', '2081-01-07')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:12:58 --> ArgumentCountError: Too few arguments to function App\Libraries\Nepali_date_lib::convertBsToAd(), 1 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 62 and exactly 3 expected
+[Method: POST, Route: save-post/6]
+in APPPATH\Libraries\Nepali_date_lib.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): App\Libraries\Nepali_date_lib->convertBsToAd('2081,01,07')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:13:17 --> ArgumentCountError: Too few arguments to function App\Libraries\Nepali_date_lib::convertBsToAd(), 1 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 62 and exactly 3 expected
+[Method: POST, Route: save-post/6]
+in APPPATH\Libraries\Nepali_date_lib.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): App\Libraries\Nepali_date_lib->convertBsToAd('2081,01,07')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:15:01 --> ArgumentCountError: Too few arguments to function App\Libraries\Nepali_date_lib::convertBsToAd(), 1 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 62 and exactly 3 expected
+[Method: POST, Route: save-post/6]
+in APPPATH\Libraries\Nepali_date_lib.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): App\Libraries\Nepali_date_lib->convertBsToAd('2081,01,07')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:15:33 --> ArgumentCountError: Too few arguments to function App\Libraries\Nepali_date_lib::convertBsToAd(), 1 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 62 and exactly 3 expected
+[Method: POST, Route: save-post/6]
+in APPPATH\Libraries\Nepali_date_lib.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): App\Libraries\Nepali_date_lib->convertBsToAd('2')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:17:40 --> Error: Undefined constant "App\Controllers\Admin\date_str"
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:18:11 --> Error: Call to undefined function App\Controllers\Admin\split()
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:20:05 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 APPPATH\Controllers\Admin\PostController.php(60): explode('-', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:23:43 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 62.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): explode('-', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:29:07 --> ErrorException: Undefined array key 1
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 63.
+ 1 APPPATH\Controllers\Admin\PostController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:30:18 --> Error: Call to undefined function App\Controllers\Admin\now()
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:35:44 --> ErrorException: Undefined array key 1
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 68.
+ 1 APPPATH\Controllers\Admin\PostController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:39:36 --> ErrorException: Undefined variable $daya
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 73.
+ 1 APPPATH\Controllers\Admin\PostController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daya', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:41:15 --> ErrorException: Undefined variable $year
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 73.
+ 1 APPPATH\Controllers\Admin\PostController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $year', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:42:06 --> ErrorException: Array to string conversion
+[Method: POST, Route: save-post/]
+in APPPATH\Controllers\Admin\PostController.php on line 70.
+ 1 APPPATH\Controllers\Admin\PostController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 11:43:56 --> ArgumentCountError: Too few arguments to function App\Libraries\Nepali_date_lib::convertBsToAd(), 1 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 69 and exactly 3 expected
+[Method: POST, Route: save-post/]
+in APPPATH\Libraries\Nepali_date_lib.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(69): App\Libraries\Nepali_date_lib->convertBsToAd('2024,04,18')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:42:42 --> ErrorException: Undefined variable $postdate
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 8.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postdate', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 8)
+ 2 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:43:05 --> Error: Using $this when not in object context
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 12.
+ 1 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:44:46 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 7.
+ 1 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:45:47 --> ErrorException: Attempt to read property "nepali_date_lib" on null
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 12.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nepali_date_lib" on null', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 12)
+ 2 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:46:53 --> ErrorException: Attempt to read property "nepali_date_lib" on null
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 12.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nepali_date_lib" on null', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 12)
+ 2 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:47:43 --> Error: Call to undefined function App\Controllers\Admin\convertbstoad()
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:49:17 --> Error: Call to undefined function App\Controllers\Admin\convertbstoad()
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:49:36 --> ErrorException: Attempt to read property "nepali_date_lib" on null
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 13.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nepali_date_lib" on null', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 13)
+ 2 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:50:01 --> ErrorException: Attempt to read property "nepali_date_lib" on null
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 13.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nepali_date_lib" on null', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 13)
+ 2 APPPATH\Controllers\Admin\PostController.php(61): convertbstoad([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:55:33 --> ErrorException: Undefined variable $bsDate
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 109.
+ 1 APPPATH\Controllers\Admin\PostController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bsDate', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 12:57:41 --> ErrorException: Undefined variable $nepaliDateLib
+[Method: POST, Route: save-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 62.
+ 1 APPPATH\Controllers\Admin\PostController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nepaliDateLib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:00:23 --> ErrorException: Array to string conversion
+[Method: POST, Route: save-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 7.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 7)
+ 2 APPPATH\Controllers\Admin\PostController.php(62): convertbstoad([...], Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:05:30 --> Error: Class "Nepali_date_lib" not found
+[Method: GET, Route: edit-post/6]
+in APPPATH\Views\admin\post_editor.php on line 62.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/post_editor', [], true)
+ 4 APPPATH\Controllers\Admin\PostController.php(49): view('admin/post_editor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:07:39 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:08:26 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:08:31 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:08:33 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:09:22 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:09:29 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertBsToAd_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertBsToAd_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertBsToAd_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertbstoad('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:10:54 --> ErrorException: Undefined array key 1
+[Method: GET, Route: edit-post/6]
+in APPPATH\Helpers\ConvertAdToBs_helper.php on line 10.
+ 1 APPPATH\Helpers\ConvertAdToBs_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\xampp\\htdocs\\newcms\\app\\Helpers\\ConvertAdToBs_helper.php', 10)
+ 2 APPPATH\Controllers\Admin\PostController.php(49): convertadtobs('2024-04-18', Object(App\Libraries\Nepali_date_lib))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:16:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: edit-post/6]
+in APPPATH\Views\admin\post_editor.php on line 61.
+ 1 APPPATH\Views\admin\post_editor.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/post_editor', [], true)
+ 5 APPPATH\Controllers\Admin\PostController.php(52): view('admin/post_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:19:18 --> ErrorException: Undefined variable $bsDate
+[Method: GET, Route: edit-post/6]
+in APPPATH\Controllers\Admin\PostController.php on line 50.
+ 1 APPPATH\Controllers\Admin\PostController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bsDate', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:19:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: add-post]
+in APPPATH\Controllers\Admin\PostController.php on line 49.
+ 1 APPPATH\Controllers\Admin\PostController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:20:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: add-post]
+in APPPATH\Controllers\Admin\PostController.php on line 48.
+ 1 APPPATH\Controllers\Admin\PostController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-18 13:21:19 --> ErrorException: Undefined variable $added_on
+[Method: GET, Route: add-post]
+in APPPATH\Controllers\Admin\PostController.php on line 54.
+ 1 APPPATH\Controllers\Admin\PostController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $added_on', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')

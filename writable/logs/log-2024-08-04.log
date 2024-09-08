@@ -1,0 +1,315 @@
+CRITICAL - 2024-08-04 16:05:39 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:05:39 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:26:38 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:26:58 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:27:29 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:27:40 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:27:45 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:27:50 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:27:51 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:28:43 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:29:50 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:30:30 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:31:03 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:31:52 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:31:55 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:32:37 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:32:40 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:34:20 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:34:25 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:34:45 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:35:43 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:37:12 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:46:40 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:48:50 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:49:01 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:49:12 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:49:29 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:50:27 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:51:28 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:51:51 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:51:56 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:52:27 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:53:27 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 16:54:11 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/66a8c2ee0ef9e.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')
+CRITICAL - 2024-08-04 17:58:39 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/IDORautahatUpdated/public/index.php')

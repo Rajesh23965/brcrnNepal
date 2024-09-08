@@ -1,0 +1,1383 @@
+CRITICAL - 2024-04-19 05:18:53 --> Error: Class "Nepali_date_lib" not found
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Views\admin\postlist.php on line 69.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/postlist', [], true)
+ 4 APPPATH\Controllers\Admin\PostController.php(36): view('admin/postlist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 05:23:24 --> ErrorException: Undefined variable $nepaliDateLib
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 36.
+ 1 APPPATH\Controllers\Admin\PostController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nepaliDateLib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 05:23:51 --> ErrorException: Undefined variable $nepaliDateLib
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 37.
+ 1 APPPATH\Controllers\Admin\PostController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nepaliDateLib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 05:24:00 --> ErrorException: Undefined variable $nepaliDateLib
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 37.
+ 1 APPPATH\Controllers\Admin\PostController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nepaliDateLib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 06:50:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: remove-media-from-library]
+in SYSTEMPATH\Model.php on line 445.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Helpers\UpdateData_helper.php(6): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\Admin\MediaController.php(63): updatePage(Object(App\Models\Admin\Mediamodel), null, [...], 'Deleted')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MediaController->removeMediaFromLibrary()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MediaController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:29:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/cateory_editor.php"
+[Method: GET, Route: category]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/cateory_editor.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cateory_editor', [], true)
+ 3 APPPATH\Controllers\Admin\CategoryController.php(18): view('admin/cateory_editor')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:29:29 --> ErrorException: Undefined variable $get_caty_list
+[Method: GET, Route: category]
+in APPPATH\Views\admin\category_editor.php on line 51.
+ 1 APPPATH\Views\admin\category_editor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_caty_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/category_editor', [], true)
+ 5 APPPATH\Controllers\Admin\CategoryController.php(18): view('admin/category_editor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:30:09 --> ErrorException: Undefined variable $getCatyList
+[Method: GET, Route: category]
+in APPPATH\Views\admin\category_editor.php on line 51.
+ 1 APPPATH\Views\admin\category_editor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getCatyList', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/category_editor', [], true)
+ 5 APPPATH\Controllers\Admin\CategoryController.php(19): view('admin/category_editor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:30:25 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: category]
+in APPPATH\Views\admin\category_editor.php on line 51.
+ 1 APPPATH\Views\admin\category_editor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/category_editor', [], true)
+ 5 APPPATH\Controllers\Admin\CategoryController.php(19): view('admin/category_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:31:23 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: category]
+in APPPATH\Views\admin\category_editor.php on line 51.
+ 1 APPPATH\Views\admin\category_editor.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\category_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/category_editor', [], true)
+ 5 APPPATH\Controllers\Admin\CategoryController.php(19): view('admin/category_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:34:15 --> Error: Class "App\Controllers\Admin\categoryModel" not found
+[Method: GET, Route: category]
+in APPPATH\Controllers\Admin\CategoryController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:34:57 --> Error: Class "App\Models\CategoryModel" not found
+[Method: GET, Route: category]
+in APPPATH\Controllers\Admin\CategoryController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:35:09 --> Error: Class "App\Models\Categorymodel" not found
+[Method: GET, Route: category]
+in APPPATH\Controllers\Admin\CategoryController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 07:35:50 --> ErrorException: Undefined property: App\Controllers\Admin\CategoryController::$postmodel
+[Method: GET, Route: category]
+in APPPATH\Controllers\Admin\CategoryController.php on line 28.
+ 1 APPPATH\Controllers\Admin\CategoryController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\CategoryController::$postmodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\CategoryController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->getCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 08:07:39 --> Error: Call to undefined function App\Models\Admin\where()
+[Method: POST, Route: add-category]
+in APPPATH\Models\Admin\Categorymodel.php on line 22.
+ 1 APPPATH\Controllers\Admin\CategoryController.php(61): App\Models\Admin\Categorymodel->getCategoryById(9)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->addCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 08:08:19 --> Error: Call to undefined function App\Models\Admin\where()
+[Method: POST, Route: add-category]
+in APPPATH\Models\Admin\Categorymodel.php on line 22.
+ 1 APPPATH\Controllers\Admin\CategoryController.php(61): App\Models\Admin\Categorymodel->getCategoryById(10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\CategoryController->addCategory()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CategoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:14:45 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::singleData()
+[Method: GET, Route: top-bar-setup]
+in APPPATH\Controllers\Admin\TopbarController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-19 10:15:09 --> mysqli_sql_exception: Unknown column 'delete_status' in 'where clause' in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\newcms\app\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\newcms\app\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+#8 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-04-19 10:15:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'delete_status' in 'where clause'
+[Method: GET, Route: top-bar-setup]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `post_id` = :post_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:15:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'delete_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `post_id` = 1
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `post_id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `post_id` = :post_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:15:09 --> [Caused by] mysqli_sql_exception: Unknown column 'delete_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `post_id` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `post_id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `post_id` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `post_id` = :post_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:15:47 --> ErrorException: Undefined variable $primaryKey
+[Method: GET, Route: top-bar-setup]
+in APPPATH\Models\Admin\Topbarmodel.php on line 18.
+ 1 APPPATH\Models\Admin\Topbarmodel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primaryKey', 'D:\\xampp\\htdocs\\newcms\\app\\Models\\Admin\\Topbarmodel.php', 18)
+ 2 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:16:07 --> ErrorException: Undefined variable $primaryKey
+[Method: GET, Route: top-bar-setup]
+in APPPATH\Models\Admin\Topbarmodel.php on line 18.
+ 1 APPPATH\Models\Admin\Topbarmodel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primaryKey', 'D:\\xampp\\htdocs\\newcms\\app\\Models\\Admin\\Topbarmodel.php', 18)
+ 2 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-19 10:16:18 --> mysqli_sql_exception: Unknown column 'delete_status' in 'where clause' in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\newcms\app\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\newcms\app\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+#8 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-04-19 10:16:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'delete_status' in 'where clause'
+[Method: GET, Route: top-bar-setup]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `topbar_id` = :topbar_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:16:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'delete_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `topbar_id` = 1
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `topbar_id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `topbar_id` = :topbar_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:16:18 --> [Caused by] mysqli_sql_exception: Unknown column 'delete_status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `topbar_id` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `topbar_id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `topbar`
+WHERE `delete_status` = \'0\'
+AND `topbar_id` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topbar`
+WHERE `delete_status` = :delete_status:
+AND `topbar_id` = :topbar_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\Admin\Topbarmodel.php(19): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Admin\TopbarController.php(29): App\Models\Admin\Topbarmodel->singleData(1)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->setUptopBar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:19:23 --> Error: Call to undefined method App\Controllers\Admin\TopbarController::topbarModel()
+[Method: POST, Route: save-topbar]
+in APPPATH\Controllers\Admin\TopbarController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TopbarController->saveTopbar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TopbarController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:33:55 --> Error: Class "App\Controllers\Admin\headerModel" not found
+[Method: GET, Route: header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\HeaderController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:42:36 --> ErrorException: Undefined property: App\Controllers\Admin\HeaderController::$fileupload
+[Method: POST, Route: save-header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 42.
+ 1 APPPATH\Controllers\Admin\HeaderController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\HeaderController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\HeaderController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\HeaderController->saveHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:43:30 --> ErrorException: Undefined property: App\Controllers\Admin\HeaderController::$fileupload
+[Method: POST, Route: save-header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 42.
+ 1 APPPATH\Controllers\Admin\HeaderController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\HeaderController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\HeaderController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\HeaderController->saveHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:43:35 --> ErrorException: Undefined property: App\Controllers\Admin\HeaderController::$fileupload
+[Method: POST, Route: save-header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 42.
+ 1 APPPATH\Controllers\Admin\HeaderController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\HeaderController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\HeaderController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\HeaderController->saveHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:43:45 --> ErrorException: Undefined property: App\Controllers\Admin\HeaderController::$fileupload
+[Method: POST, Route: save-header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 42.
+ 1 APPPATH\Controllers\Admin\HeaderController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\HeaderController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\HeaderController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\HeaderController->saveHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 10:48:17 --> ErrorException: Undefined property: App\Controllers\Admin\HeaderController::$postmodel
+[Method: POST, Route: save-header]
+in APPPATH\Controllers\Admin\HeaderController.php on line 41.
+ 1 APPPATH\Controllers\Admin\HeaderController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\HeaderController::$postmodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\HeaderController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\HeaderController->saveHeader()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:01:05 --> ArgumentCountError: Too few arguments to function App\Models\Admin\Menumodel::getAllmenu(), 0 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\MenuController.php on line 38 and exactly 1 expected
+[Method: GET, Route: menubar]
+in APPPATH\Models\Admin\Menumodel.php on line 16.
+ 1 APPPATH\Controllers\Admin\MenuController.php(38): App\Models\Admin\Menumodel->getAllmenu()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->setUpMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:07:48 --> ErrorException: Undefined property: App\Controllers\Admin\MenuController::$resquest
+[Method: POST, Route: save-menu]
+in APPPATH\Controllers\Admin\MenuController.php on line 79.
+ 1 APPPATH\Controllers\Admin\MenuController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\MenuController::$resquest', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\MenuController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:08:07 --> ErrorException: Undefined property: App\Controllers\Admin\MenuController::$db
+[Method: POST, Route: save-menu]
+in APPPATH\Controllers\Admin\MenuController.php on line 83.
+ 1 APPPATH\Controllers\Admin\MenuController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\MenuController::$db', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\MenuController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:08:24 --> Error: Call to undefined method App\Controllers\Admin\MenuController::truncate()
+[Method: POST, Route: save-menu]
+in APPPATH\Controllers\Admin\MenuController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:10:18 --> ErrorException: Undefined property: App\Controllers\Admin\MenuController::$db
+[Method: POST, Route: save-menu]
+in APPPATH\Controllers\Admin\MenuController.php on line 66.
+ 1 APPPATH\Controllers\Admin\MenuController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\MenuController::$db', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\MenuController.php', 66)
+ 2 APPPATH\Controllers\Admin\MenuController.php(85): App\Controllers\Admin\MenuController->save_menu_item([...], 0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:10:50 --> ErrorException: Undefined property: App\Controllers\Admin\MenuController::$menumodel
+[Method: POST, Route: save-menu]
+in APPPATH\Controllers\Admin\MenuController.php on line 67.
+ 1 APPPATH\Controllers\Admin\MenuController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\MenuController::$menumodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\MenuController.php', 67)
+ 2 APPPATH\Controllers\Admin\MenuController.php(85): App\Controllers\Admin\MenuController->save_menu_item([...], 0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:12:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "admin/menubar" cannot be found.
+[Method: POST, Route: save-menu]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/menubar')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\MenuController.php(90): redirect('admin/menubar')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->saveMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:14:18 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: menubar]
+in APPPATH\Views\admin\menu.php on line 287.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu', [], true)
+ 3 APPPATH\Controllers\Admin\MenuController.php(40): view('admin/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MenuController->setUpMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:23:24 --> ErrorException: Undefined array key "cat_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 29.
+ 1 APPPATH\Views\admin\news_ticker.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cat_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(28): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-19 11:25:57 --> mysqli_sql_exception: Not unique table/alias: 'new_ticker' in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `categor...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\newcms\app\Models\Admin\Newstickermodel.php(20): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\newcms\app\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+#8 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-04-19 11:25:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+[Method: GET, Route: news-ticker]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Admin\Newstickermodel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:25:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Admin\Newstickermodel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:25:57 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `categorytbl`.*, `new_ticker`.*
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `new_ticker`.`category_id` = `categorytbl`.`cat_id`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Admin\Newstickermodel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-19 11:27:47 --> mysqli_sql_exception: Not unique table/alias: 'new_ticker' in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\newcms\app\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\newcms\app\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+#8 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-04-19 11:27:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+[Method: GET, Route: news-ticker]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:27:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:27:47 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+ERROR - 2024-04-19 11:31:02 --> mysqli_sql_exception: Not unique table/alias: 'new_ticker' in D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\newcms\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\newcms\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\newcms\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\newcms\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\newcms\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\newcms\app\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\newcms\app\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+#8 D:\xampp\htdocs\newcms\system\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+#9 D:\xampp\htdocs\newcms\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+#10 D:\xampp\htdocs\newcms\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\newcms\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\newcms\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\newcms\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\newcms\system\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-04-19 11:31:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+[Method: GET, Route: news-ticker]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:31:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:31:02 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'new_ticker'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `new_ticker`
+LEFT JOIN `new_ticker` ON `categorytbl`.`cat_id`=  `new_ticker`.`category_id`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Admin\Newstickermodel.php(19): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\NewstickerController.php(26): App\Models\Admin\Newstickermodel->getAllticker()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:37:44 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 30.
+ 1 APPPATH\Views\admin\news_ticker.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(33): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:38:46 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 30.
+ 1 APPPATH\Views\admin\news_ticker.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(33): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:42:19 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 30.
+ 1 APPPATH\Views\admin\news_ticker.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(35): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:43:00 --> ErrorException: Undefined variable $newsTickerModel
+[Method: GET, Route: news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 26.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newsTickerModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:43:30 --> ErrorException: Undefined variable $Newstickermodel
+[Method: GET, Route: news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 26.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Newstickermodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:43:52 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 30.
+ 1 APPPATH\Views\admin\news_ticker.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(32): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 11:45:14 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: news-ticker]
+in APPPATH\Views\admin\news_ticker.php on line 30.
+ 1 APPPATH\Views\admin\news_ticker.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\news_ticker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/news_ticker', [], true)
+ 5 APPPATH\Controllers\Admin\NewstickerController.php(34): view('admin/news_ticker', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 12:23:55 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: save-news-ticker]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Admin\NewstickerController.php(39): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 12:26:19 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 930
+[Method: POST, Route: save-news-ticker]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\BaseModel->timeToString('1')
+ 2 APPPATH\Models\Admin\Newstickermodel.php(26): CodeIgniter\BaseModel->insertBatch([...])
+ 3 APPPATH\Controllers\Admin\NewstickerController.php(39): App\Models\Admin\Newstickermodel->insertMultipleRecords([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 12:30:43 --> ErrorException: Undefined property: App\Controllers\Admin\NewstickerController::$db
+[Method: POST, Route: save-news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 38.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\NewstickerController::$db', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:26:38 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: save-news-ticker]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Admin\NewstickerController.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:31:32 --> ErrorException: Undefined variable $data
+[Method: GET, Route: news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 30.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:40:41 --> ErrorException: Undefined array key "news_ticker"
+[Method: GET, Route: news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 30.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "news_ticker"', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->SetUpnewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:43:49 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: save-news-ticker]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Admin\NewstickerController.php(38): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:45:17 --> ErrorException: Uninitialized string offset 1
+[Method: POST, Route: save-news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 37.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 13:46:31 --> ErrorException: Uninitialized string offset 1
+[Method: POST, Route: save-news-ticker]
+in APPPATH\Controllers\Admin\NewstickerController.php on line 37.
+ 1 APPPATH\Controllers\Admin\NewstickerController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\NewstickerController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\NewstickerController->saveNewsTicker()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\NewstickerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:04:17 --> Error: Class "App\Controllers\Admin\Officermodel" not found
+[Method: GET, Route: officer-setup]
+in APPPATH\Controllers\Admin\OfficerController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\OfficerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:04:34 --> ErrorException: Undefined property: App\Controllers\Admin\OfficerController::$Newstickermodel
+[Method: GET, Route: officer-setup]
+in APPPATH\Controllers\Admin\OfficerController.php on line 24.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\OfficerController::$Newstickermodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->SetupOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:04:53 --> ErrorException: Undefined variable $edit_officer
+[Method: GET, Route: officer-setup]
+in APPPATH\Views\admin\officer_setup.php on line 1.
+ 1 APPPATH\Views\admin\officer_setup.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edit_officer', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/officer_setup', [], true)
+ 5 APPPATH\Controllers\Admin\OfficerController.php(26): view('admin/officer_setup')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->SetupOfficer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:07:32 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: officer-setup]
+in APPPATH\Views\admin\officer_setup.php on line 26.
+ 1 APPPATH\Views\admin\officer_setup.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/officer_setup', [], true)
+ 5 APPPATH\Controllers\Admin\OfficerController.php(29): view('admin/officer_setup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->SetupOfficer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:07:56 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: officer-setup]
+in APPPATH\Views\admin\officer_setup.php on line 26.
+ 1 APPPATH\Views\admin\officer_setup.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/officer_setup', [], true)
+ 5 APPPATH\Controllers\Admin\OfficerController.php(29): view('admin/officer_setup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->SetupOfficer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 14:16:16 --> ErrorException: Undefined variable $edit_officer
+[Method: GET, Route: show-officer-list]
+in APPPATH\Views\admin\officer_setup.php on line 1.
+ 1 APPPATH\Views\admin\officer_setup.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edit_officer', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\officer_setup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/officer_setup', [], true)
+ 5 APPPATH\Controllers\Admin\OfficerController.php(38): view('admin/officer_setup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->getOfficerList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:40:28 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:41:10 --> ErrorException: Undefined variable $officer_image_name
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 60.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $officer_image_name', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:44:03 --> ErrorException: Undefined property: App\Controllers\Admin\OfficerController::$Officemodel
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 53.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\OfficerController::$Officemodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:48:28 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:49:05 --> ErrorException: Undefined property: App\Controllers\Admin\OfficerController::$fileupload
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 56.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\OfficerController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:49:32 --> ErrorException: Undefined property: App\Controllers\Admin\OfficerController::$fileupload
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 57.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\OfficerController::$fileupload', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 17:59:02 --> ErrorException: Undefined variable $officer_id
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 73.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $officer_id', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:01:46 --> ErrorException: Undefined variable $officer_id
+[Method: POST, Route: save-officer]
+in APPPATH\Controllers\Admin\OfficerController.php on line 56.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $officer_id', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:04:43 --> ErrorException: Undefined array key "officer_image_name"
+[Method: POST, Route: save-officer/1]
+in APPPATH\Controllers\Admin\OfficerController.php on line 57.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "officer_image_name"', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:08:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: save-officer/]
+in APPPATH\Controllers\Admin\OfficerController.php on line 57.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:10:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: save-officer/]
+in APPPATH\Controllers\Admin\OfficerController.php on line 57.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:12:43 --> ErrorException: Undefined variable $id
+[Method: POST, Route: save-officer/]
+in APPPATH\Controllers\Admin\OfficerController.php on line 89.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\OfficerController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:33:39 --> ArgumentCountError: Too few arguments to function updatePage(), 3 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\OfficerController.php on line 97 and exactly 4 expected
+[Method: GET, Route: delete-officer/1]
+in APPPATH\Helpers\UpdateData_helper.php on line 4.
+ 1 APPPATH\Controllers\Admin\OfficerController.php(97): updatePage(Object(App\Models\Admin\Officermodel), '1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\OfficerController->deleteOfficer('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OfficerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:40:15 --> Error: Class "App\Models\Admin\Slidermodel" not found
+[Method: GET, Route: slider-setup]
+in APPPATH\Controllers\Admin\SliderController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\SliderController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:42:38 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: slider-setup]
+in APPPATH\Views\admin\slidersetup.php on line 35.
+ 1 APPPATH\Views\admin\slidersetup.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/slidersetup', [], true)
+ 5 APPPATH\Controllers\Admin\SliderController.php(31): view('admin/slidersetup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SliderController->setupSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:43:17 --> ErrorException: Undefined variable $image_list
+[Method: GET, Route: slider-setup]
+in APPPATH\Views\admin\slidersetup.php on line 56.
+ 1 APPPATH\Views\admin\slidersetup.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/slidersetup', [], true)
+ 5 APPPATH\Controllers\Admin\SliderController.php(31): view('admin/slidersetup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SliderController->setupSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:45:00 --> ErrorException: Undefined variable $image_listimage_list
+[Method: GET, Route: slider-setup]
+in APPPATH\Views\admin\slidersetup.php on line 56.
+ 1 APPPATH\Views\admin\slidersetup.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image_listimage_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\slidersetup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/slidersetup', [], true)
+ 5 APPPATH\Controllers\Admin\SliderController.php(31): view('admin/slidersetup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SliderController->setupSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 18:51:46 --> ErrorException: Undefined property: App\Controllers\Admin\SliderController::$input
+[Method: POST, Route: save-slider]
+in APPPATH\Controllers\Admin\SliderController.php on line 39.
+ 1 APPPATH\Controllers\Admin\SliderController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\SliderController::$input', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\SliderController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SliderController->saveOfficer()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SliderController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 20:18:51 --> ErrorException: Undefined variable $uploaded_file
+[Method: POST, Route: save-page/]
+in APPPATH\Views\admin\mediamodal.php on line 35.
+ 1 APPPATH\Views\admin\mediamodal.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploaded_file', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php', 35)
+ 2 APPPATH\Views\admin\page_editor.php(81): include_once('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 6 APPPATH\Controllers\Admin\PageController.php(65): view('admin/page_editor', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PageController->savePage()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-19 20:19:51 --> ErrorException: Undefined variable $uploaded_file
+[Method: POST, Route: save-page/]
+in APPPATH\Views\admin\mediamodal.php on line 35.
+ 1 APPPATH\Views\admin\mediamodal.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploaded_file', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php', 35)
+ 2 APPPATH\Views\admin\page_editor.php(81): include_once('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 6 APPPATH\Controllers\Admin\PageController.php(65): view('admin/page_editor', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PageController->savePage()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PageController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')

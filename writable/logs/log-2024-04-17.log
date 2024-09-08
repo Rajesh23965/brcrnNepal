@@ -1,0 +1,1623 @@
+CRITICAL - 2024-04-17 04:50:00 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Admincontroller::index"
+[Method: GET, Route: admin/]
+in SYSTEMPATH\Router\Router.php on line 491.
+ 1 SYSTEMPATH\Router\Router.php(491): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Admincontroller::index')
+ 2 SYSTEMPATH\Router\Router.php(209): CodeIgniter\Router\Router->checkRoutes('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 04:50:14 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Admincontroller::index"
+[Method: GET, Route: admin/]
+in SYSTEMPATH\Router\Router.php on line 491.
+ 1 SYSTEMPATH\Router\Router.php(491): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Admincontroller::index')
+ 2 SYSTEMPATH\Router\Router.php(209): CodeIgniter\Router\Router->checkRoutes('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 04:51:36 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Admincontroller::index"
+[Method: GET, Route: admin/]
+in SYSTEMPATH\Router\Router.php on line 491.
+ 1 SYSTEMPATH\Router\Router.php(491): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Admincontroller::index')
+ 2 SYSTEMPATH\Router\Router.php(209): CodeIgniter\Router\Router->checkRoutes('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 04:58:54 --> ErrorException: Undefined variable $system_path
+[Method: GET, Route: admin/]
+in APPPATH\Controllers\Admin\Admincontroller.php on line 10.
+ 1 APPPATH\Controllers\Admin\Admincontroller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $system_path', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Admincontroller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:00:11 --> ErrorException: Undefined variable $system_path
+[Method: GET, Route: admin/]
+in APPPATH\Controllers\Admin\Admincontroller.php on line 10.
+ 1 APPPATH\Controllers\Admin\Admincontroller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $system_path', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Admincontroller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:04:15 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: admin/]
+in APPPATH\Views\admin\layouts\adminheader.php on line 8.
+ 1 APPPATH\Views\admin\layouts\adminheader.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\layouts\\adminheader.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\layouts\\adminheader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/layouts/adminheader', [], true)
+ 5 APPPATH\Controllers\Admin\Admincontroller.php(11): view('admin/layouts/adminheader')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:06:03 --> ParseError: syntax error, unexpected double-quoted string "/>", expecting "," or ";"
+[Method: GET, Route: admin/]
+in APPPATH\Views\admin\layouts\adminheader.php on line 32.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/layouts/adminheader', [], true)
+ 3 APPPATH\Controllers\Admin\Admincontroller.php(11): view('admin/layouts/adminheader')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:07:05 --> Error: Call to undefined function is_active()
+[Method: GET, Route: admin/]
+in APPPATH\Views\admin\layouts\adminheader.php on line 116.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/layouts/adminheader', [], true)
+ 4 APPPATH\Controllers\Admin\Admincontroller.php(11): view('admin/layouts/adminheader')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:10:49 --> Error: Call to undefined function is_active()
+[Method: GET, Route: admin/]
+in APPPATH\Views\admin\layouts\adminheader.php on line 140.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/layouts/adminheader', [], true)
+ 4 APPPATH\Controllers\Admin\Admincontroller.php(11): view('admin/layouts/adminheader')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:18:21 --> TypeError: App\Controllers\Admin\Admincontroller::index(): Return value must be of type string, none returned
+[Method: GET, Route: admin/]
+in APPPATH\Controllers\Admin\Admincontroller.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:18:26 --> TypeError: App\Controllers\Admin\Admincontroller::index(): Return value must be of type string, none returned
+[Method: GET, Route: admin/]
+in APPPATH\Controllers\Admin\Admincontroller.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Admincontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admincontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:28:16 --> ErrorException: Undefined variable $page_list
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Views\admin\pagelist.php on line 30.
+ 1 APPPATH\Views\admin\pagelist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\pagelist.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\pagelist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pagelist', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(12): view('admin/pagelist')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:34:08 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:34:33 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:40:09 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:46:04 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:48:24 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:48:39 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 16.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:52:32 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:53:38 --> Error: Class "App\Models\Admin\Pagemodel" not found
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 05:56:17 --> BadMethodCallException: Call to undefined method App\Models\Admin\Pagemodel::getpagelist
+[Method: GET, Route: view-all-page-list]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(15): CodeIgniter\Model->__call('getpagelist', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:07:11 --> Error: Cannot call constructor
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:12:03 --> Error: Cannot call constructor
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:12:16 --> ErrorException: Undefined variable $uri
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 40.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:14:25 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:17:29 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 16.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:17:55 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 16.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:18:43 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:21:24 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 41.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:26:46 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 44.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:29:36 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 33.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->getAllPageList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:29:52 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 44.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:31:15 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:32:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:33:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:36:23 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:37:42 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(49): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:43:13 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(49): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:44:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:46:06 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:49:16 --> ErrorException: Undefined variable $uploaded_file
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 35.
+ 1 APPPATH\Views\admin\mediamodal.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploaded_file', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php', 35)
+ 2 APPPATH\Views\admin\page_editor.php(78): include_once('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 6 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 06:51:34 --> ErrorException: Undefined variable $pagelist
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 36.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagelist', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->getAllPageList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:11:54 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 36.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:12:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: add-page]
+in APPPATH\Helpers\MediaList_helper.php on line 10.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(48): getMediaList('pagetbl')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:12:38 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 36.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:13:23 --> ErrorException: Undefined array key "doc_temp_name"
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 36.
+ 1 APPPATH\Views\admin\mediamodal.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_temp_name"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php', 36)
+ 2 APPPATH\Views\admin\page_editor.php(78): include_once('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 6 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:15:56 --> Error: Class "File" not found
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 37.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:16:54 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:17:38 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:18:47 --> Error: Class "File" not found
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 37.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:19:15 --> Error: Class "File" not found
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 37.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:19:38 --> Error: Class "File" not found
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 37.
+ 1 APPPATH\Views\admin\page_editor.php(78): include_once()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:20:55 --> ErrorException: Undefined array key "doc_temp_name"
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\mediamodal.php on line 36.
+ 1 APPPATH\Views\admin\mediamodal.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_temp_name"', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php', 36)
+ 2 APPPATH\Views\admin\page_editor.php(78): include_once('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\mediamodal.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 6 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:26:38 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:28:33 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:29:48 --> ErrorException: Undefined variable $session
+[Method: GET, Route: add-page]
+in APPPATH\Views\admin\page_editor.php on line 17.
+ 1 APPPATH\Views\admin\page_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\page_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/page_editor', [], true)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(50): view('admin/page_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:33:59 --> ErrorException: Undefined property: App\Controllers\Admin\Pagecontroller::$remove
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 33.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Pagecontroller::$remove', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->getAllPageList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:37:54 --> ErrorException: Undefined variable $route
+[Method: GET, Route: save-page]
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:39:07 --> ErrorException: Undefined variable $route
+[Method: GET, Route: save-page]
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:39:11 --> ErrorException: Undefined variable $route
+[Method: GET, Route: add-page]
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:39:13 --> ErrorException: Undefined variable $route
+[Method: GET, Route: view-all-page-list]
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('D:\\xampp\\htdocs\\newcms\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:39:59 --> ErrorException: Undefined property: App\Controllers\Admin\Pagecontroller::$uri
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 57.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Pagecontroller::$uri', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:46:07 --> ErrorException: Undefined property: App\Controllers\Admin\Pagecontroller::$input
+[Method: POST, Route: admin/save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 54.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Pagecontroller::$input', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:47:31 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::savePage(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:49:09 --> ErrorException: Undefined variable $request
+[Method: POST, Route: admin/save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 55.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:52:38 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::savePage(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 07:59:40 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 55.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:05:42 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Pagecontroller::__construct(), 0 passed in D:\xampp\htdocs\newcms\system\CodeIgniter.php on line 903 and exactly 2 expected
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:05:58 --> ErrorException: Undefined variable $uri
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 25.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:06:34 --> Error: Class "App\Controllers\Admin\uri" not found
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pagecontroller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:07:14 --> ErrorException: Undefined variable $pageModel
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 47.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:07:39 --> Error: Object of class App\Controllers\Admin\Pagecontroller could not be converted to string
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:11:19 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 54.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:19:06 --> ErrorException: Undefined variable $pageID
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 54.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageID', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:19:46 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 52.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:21:53 --> ErrorException: Undefined variable $request
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 52.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:30:17 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(58): CodeIgniter\BaseModel->save([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:31:29 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(58): CodeIgniter\BaseModel->save([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:37:14 --> ErrorException: Undefined variable $pagemodel
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 59.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagemodel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:37:46 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(59): CodeIgniter\BaseModel->save([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:38:32 --> ErrorException: Undefined variable $pageModel
+[Method: POST, Route: save-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 59.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageModel', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:39:25 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(59): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:41:20 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(60): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:42:48 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Admin\Pagemodel"
+[Method: POST, Route: save-page]
+in SYSTEMPATH\Model.php on line 813.
+ 1 SYSTEMPATH\Model.php(813): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admin\\Pagemodel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Admin\Pagecontroller.php(60): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 08:56:57 --> ErrorException: Undefined variable $uri
+[Method: GET, Route: add-page]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 39.
+ 1 APPPATH\Controllers\Admin\Pagecontroller.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\Pagecontroller.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:04:12 --> BadMethodCallException: Call to undefined method App\Models\Admin\Pagemodel::where_or
+[Method: GET, Route: edit-page/1]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\Admin\Pagemodel.php(23): CodeIgniter\Model->__call('where_or', [...])
+ 2 APPPATH\Controllers\Admin\Pagecontroller.php(41): App\Models\Admin\Pagemodel->getSinglePageData('edit-page')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->ViewPageEditor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:08:54 --> Error: Undefined constant "App\Controllers\Admin\required"
+[Method: POST, Route: save-page/1]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:11:43 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "edit-page/1" cannot be found.
+[Method: POST, Route: save-page/1]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('edit-page/1')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\Pagecontroller.php(73): redirect('edit-page/1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:14:51 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "edit-page/1" cannot be found.
+[Method: POST, Route: save-page/1]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('edit-page/1')
+ 2 APPPATH\Controllers\Admin\Pagecontroller.php(74): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:15:35 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "\edit-page/1" cannot be found.
+[Method: POST, Route: save-page/1]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('\\edit-page/1')
+ 2 APPPATH\Controllers\Admin\Pagecontroller.php(74): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->savePage('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:42:44 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: delete-page/3]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Admin\Pagecontroller.php(96): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->deletePage('3')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:43:47 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: delete-page/1]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Admin\Pagecontroller.php(96): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->deletePage('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:50:24 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: delete-page/1]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->deletePage('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 09:51:38 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: delete-page/1]
+in APPPATH\Controllers\Admin\Pagecontroller.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Pagecontroller->deletePage('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pagecontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:43:43 --> ErrorException: Undefined variable $category_list
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Views\admin\postlist.php on line 43.
+ 1 APPPATH\Views\admin\postlist.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\postlist.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\postlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/postlist', [], true)
+ 5 APPPATH\Controllers\Admin\PostController.php(31): view('admin/postlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->getAllpostList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:49:16 --> Error: Class "App\Controllers\Admin\categoryModel" not found
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:49:44 --> Error: Class "App\Controllers\Admin\categoryModel" not found
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:50:13 --> Error: Class "App\Controllers\Admin\Categorymodel" not found
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:50:32 --> Error: Class "App\Controllers\Admin\categoryModel" not found
+[Method: GET, Route: view-all-post-list]
+in APPPATH\Controllers\Admin\PostController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\PostController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:52:27 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::getSinglePageData
+[Method: GET, Route: add-post]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\PostController.php(46): CodeIgniter\Model->__call('getSinglePageData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->ViewpostEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:53:11 --> BadMethodCallException: Call to undefined method App\Models\Admin\Postmodel::getSinglePageData
+[Method: GET, Route: add-post]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\PostController.php(45): CodeIgniter\Model->__call('getSinglePageData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->ViewpostEditor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:53:58 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: deactivate-post/3]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Helpers\UpdateData_helper.php(6): CodeIgniter\Model->update('3', [...])
+ 4 APPPATH\Controllers\Admin\PostController.php(97): updatePage(Object(App\Models\Admin\Postmodel), '3', [...], 'Deactivated')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->deactivatepost('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:54:18 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: deactivate-post/3]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Helpers\UpdateData_helper.php(6): CodeIgniter\Model->update('3', [...])
+ 4 APPPATH\Controllers\Admin\PostController.php(97): updatePage(Object(App\Models\Admin\Postmodel), '3', [...], 'Deactivated')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->deactivatepost('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:57:15 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: edit-post/3]
+in APPPATH\Views\admin\post_editor.php on line 17.
+ 1 APPPATH\Views\admin\post_editor.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/post_editor', [], true)
+ 5 APPPATH\Controllers\Admin\PostController.php(47): view('admin/post_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 10:58:33 --> ErrorException: Undefined variable $category_list
+[Method: GET, Route: edit-post/3]
+in APPPATH\Views\admin\post_editor.php on line 85.
+ 1 APPPATH\Views\admin\post_editor.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_list', 'D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\newcms\\app\\Views\\admin\\post_editor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/post_editor', [], true)
+ 5 APPPATH\Controllers\Admin\PostController.php(47): view('admin/post_editor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:04:31 --> ArgumentCountError: Too few arguments to function App\Models\Admin\Postmodel::getSinglePostData(), 0 passed in D:\xampp\htdocs\newcms\app\Controllers\Admin\PostController.php on line 47 and exactly 1 expected
+[Method: GET, Route: edit-post/3]
+in APPPATH\Models\Admin\Postmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin\PostController.php(47): App\Models\Admin\Postmodel->getSinglePostData()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:12:42 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:14:28 --> Error: Call to undefined method App\Controllers\Admin\PostController::handleFileUpload()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:16:54 --> Error: Call to undefined function get_instance()
+[Method: POST, Route: save-post/3]
+in APPPATH\Helpers\HandleFileUpload_helper.php on line 10.
+ 1 APPPATH\Controllers\Admin\PostController.php(65): handleFileUpload('downloadable_file', 'gif|jpg|jpeg|png|pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:18:48 --> Error: Call to undefined method App\Controllers\Admin\PostController::create_slug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:21:56 --> Error: Call to undefined function App\Controllers\Admin\create_slug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:23:19 --> Error: Call to undefined function App\Controllers\Admin\create_slug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:31:08 --> ErrorException: Undefined property: App\Controllers\Admin\PostController::$nepali_date_lib
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 56.
+ 1 APPPATH\Controllers\Admin\PostController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\PostController::$nepali_date_lib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:32:35 --> ErrorException: Undefined property: App\Controllers\Admin\PostController::$Nepali_date_lib
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 56.
+ 1 APPPATH\Controllers\Admin\PostController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\PostController::$Nepali_date_lib', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:34:44 --> Error: Class "App\Libraries\Nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:37:07 --> Error: Class "App\Libraries\Nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:37:36 --> Error: Class "App\Libraries\nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:37:52 --> Error: Class "App\Libraries\nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:40:16 --> Error: Class "App\Libraries\nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:40:49 --> Error: Class "App\Libraries\nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:41:19 --> Error: Class "App\Libraries\nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:42:20 --> Error: Class "App\Libraries\Nepali_date_lib" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:46:34 --> Error: Class "App\Libraries\Nepali_date" not found
+[Method: POST, Route: save-post/3]
+in APPPATH\Libraries\Nepali_date_lib.php on line 13.
+ 1 APPPATH\Controllers\Admin\PostController.php(25): App\Libraries\Nepali_date_lib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:48:33 --> Error: Call to undefined function App\Controllers\Admin\create_slug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:49:10 --> ErrorException: Array to string conversion
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 28.
+ 1 APPPATH\Controllers\Admin\PostController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:52:14 --> Error: Call to undefined function App\Controllers\Admin\create_slug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:52:45 --> Error: Call to undefined function App\Controllers\Admin\createSlug()
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 11:54:24 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(65): CodeIgniter\BaseModel->save('', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:48:59 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(97): CodeIgniter\BaseModel->save('', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:52:26 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(97): CodeIgniter\BaseModel->save('', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:52:59 --> ErrorException: Undefined variable $currentNepaliDate
+[Method: POST, Route: save-post/3]
+in APPPATH\Controllers\Admin\PostController.php on line 84.
+ 1 APPPATH\Controllers\Admin\PostController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentNepaliDate', 'D:\\xampp\\htdocs\\newcms\\app\\Controllers\\Admin\\PostController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:53:23 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(97): CodeIgniter\BaseModel->save('', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:54:13 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/3]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(97): CodeIgniter\BaseModel->save('', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:56:28 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: deactivate-post/3]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Helpers\UpdateData_helper.php(6): CodeIgniter\Model->update('3', [...])
+ 4 APPPATH\Controllers\Admin\PostController.php(119): updatePage(Object(App\Models\Admin\Postmodel), '3', [...], 'Deactivated')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->deactivatepost('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 12:59:28 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "3"
+[Method: POST, Route: save-post/]
+in SYSTEMPATH\HTTP\URI.php on line 565.
+ 1 SYSTEMPATH\HTTP\URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Controllers\Admin\PostController.php(60): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')
+CRITICAL - 2024-04-17 13:00:08 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in D:\xampp\htdocs\newcms\system\BaseModel.php on line 1875
+[Method: POST, Route: save-post/10]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('10')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('10', 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert('10', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('10', false)
+ 5 APPPATH\Controllers\Admin\PostController.php(97): CodeIgniter\BaseModel->save('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PostController->savepost('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\xampp\\htdocs\\newcms\\public\\index.php')

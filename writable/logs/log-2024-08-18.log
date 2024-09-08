@@ -1,0 +1,63 @@
+CRITICAL - 2024-08-18 11:41:10 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmanangGandaki/public/index.php')
+CRITICAL - 2024-08-18 11:41:10 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmanangGandaki/public/index.php')
+CRITICAL - 2024-08-18 13:23:46 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmanangGandaki/public/index.php')
+CRITICAL - 2024-08-18 16:06:51 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmustangGandaki/public/index.php')
+CRITICAL - 2024-08-18 16:06:51 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmustangGandaki/public/index.php')
+CRITICAL - 2024-08-18 16:26:48 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmustangGandaki/public/index.php')
+CRITICAL - 2024-08-18 16:55:06 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: dahcmustang.gandaki.gov.np/%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE-%E0%A4%AD%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE-%E0%A4%B9%E0%A4%BE%E0%A4%AE%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%86%E0%A4%AF/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/dahcmustangGandaki/public/index.php')

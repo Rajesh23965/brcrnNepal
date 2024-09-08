@@ -1,0 +1,42 @@
+CRITICAL - 2024-08-13 11:06:03 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/ParsaAkc/public/index.php')
+CRITICAL - 2024-08-13 11:06:03 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/ParsaAkc/public/index.php')
+CRITICAL - 2024-08-13 11:15:46 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/ParsaAkc/public/index.php')
+CRITICAL - 2024-08-13 12:44:56 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: edit-post/145]
+in APPPATH/Views/admin/post_editor.php on line 22.
+ 1 APPPATH/Views/admin/post_editor.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/ParsaAkc/app/Views/admin/post_editor.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/PostController.php(104): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\PostController->viewpostEditor()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/ParsaAkc/public/index.php')

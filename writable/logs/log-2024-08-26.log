@@ -1,0 +1,128 @@
+ERROR - 2024-08-26 13:23:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/BRCRN/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /var/www/html/BRCRN/system/Database/MySQLi/Connection.php(186): mysqli->real_connect()
+#1 /var/www/html/BRCRN/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/BRCRN/system/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/BRCRN/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/BRCRN/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/BRCRN/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /var/www/html/BRCRN/app/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+#7 /var/www/html/BRCRN/app/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+#8 /var/www/html/BRCRN/app/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+#9 /var/www/html/BRCRN/system/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#10 /var/www/html/BRCRN/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/BRCRN/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/BRCRN/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 /var/www/html/BRCRN/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /var/www/html/BRCRN/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 /var/www/html/BRCRN/system/Commands/Server/rewrite.php(49): require_once('...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /var/www/html/BRCRN/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /var/www/html/BRCRN/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/BRCRN/system/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/BRCRN/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/BRCRN/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/BRCRN/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /var/www/html/BRCRN/app/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+#6 /var/www/html/BRCRN/app/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+#7 /var/www/html/BRCRN/app/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+#8 /var/www/html/BRCRN/system/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+#9 /var/www/html/BRCRN/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/BRCRN/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/BRCRN/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/BRCRN/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /var/www/html/BRCRN/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /var/www/html/BRCRN/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-08-26 13:23:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 457.
+ 1 SYSTEMPATH/Database/BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Admin/Topbarmodel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Frontend/Home.php(111): App\Models\Admin\Topbarmodel->singleData()
+ 7 APPPATH/Controllers/Frontend/Home.php(71): App\Controllers\Frontend\Home->getCommonData()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Frontend\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:28:48 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/frontend/image/]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:28:48 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/loginImage.gif]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:31:15 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: %3Cp%20style=%22text-align:%20center;%22%3E%3Ciframe%20style=%22width:%20967px;%20height:%20545px;%22%20title=%22%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A5%87%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A5%80%E0%A4%B2%20%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%B0%20%E0%A4%85%E0%A4%A8%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%A8%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80%E0%A4%95%E0%A5%8B%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A5%A4%20%E0%A4%AD%E0%A4%BE%E0%A4%97&ndash;%E0%A5%AC%E0%A5%A9%E0%A5%AD%22%20src=%22https:/www.youtube.com/embed/JqLjkjTufm4%22%20width=%22339%22%20height=%22191%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen=%22allowfullscreen%22%3E%3C/iframe%3E%3C/p%3E%20%3Cp%20style=%22text-align:%20center;%22%3E%3Ciframe%20style=%22width:%20966px;%20height:%20544px;%22%20title=%22%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%85%E0%A4%B5%E0%A5%88%E0%A4%A7%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%96%E0%A4%A8%E0%A4%A8%E0%A5%8D%20%E0%A4%95%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A5%87%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:31:42 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: %3Cp%20style=%22text-align:%20center;%22%3E%3Ciframe%20style=%22width:%20967px;%20height:%20545px;%22%20title=%22%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A5%87%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A5%80%E0%A4%B2%20%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%B0%20%E0%A4%85%E0%A4%A8%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%A8%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80%E0%A4%95%E0%A5%8B%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A5%A4%20%E0%A4%AD%E0%A4%BE%E0%A4%97&ndash;%E0%A5%AC%E0%A5%A9%E0%A5%AD%22%20src=%22https:/www.youtube.com/embed/JqLjkjTufm4%22%20width=%22339%22%20height=%22191%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen=%22allowfullscreen%22%3E%3C/iframe%3E%3C/p%3E]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:31:51 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: %3Cp%20style=%22text-align:%20center;%22%3E%3Ciframe%20style=%22width:%20966px;%20height:%20544px;%22%20title=%22%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%85%E0%A4%B5%E0%A5%88%E0%A4%A7%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%96%E0%A4%A8%E0%A4%A8%E0%A5%8D%20%E0%A4%95%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A5%87%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:32:33 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: %3Cp%20style=%22text-align:%20center;%22%3E%3Ciframe%20style=%22width:%20967px;%20height:%20545px;%22%20title=%22%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A5%87%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A5%80%E0%A4%B2%20%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%B0%20%E0%A4%85%E0%A4%A8%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%A8%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80%E0%A4%95%E0%A5%8B%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A5%A4%20%E0%A4%AD%E0%A4%BE%E0%A4%97&ndash;%E0%A5%AC%E0%A5%A9%E0%A5%AD%22%20src=%22https:/www.youtube.com/embed/JqLjkjTufm4%22%20width=%22339%22%20height=%22191%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen=%22allowfullscreen%22%3E%3C/iframe%3E%3C/p%3E]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 13:47:18 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/no%20image.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
+CRITICAL - 2024-08-26 14:01:21 --> CodeIgniter\Exceptions\PageNotFoundException: Page Not Found
+[Method: GET, Route: assets/uploads/1720774439_2c666184639da9d0a685.jpg]
+in SYSTEMPATH/CodeIgniter.php on line 981.
+ 1 SYSTEMPATH/CodeIgniter.php(981): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+ 2 SYSTEMPATH/CodeIgniter.php(364): CodeIgniter\CodeIgniter->display404errors()
+ 3 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 5 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/var/www/html/BRCRN/public/index.php')
